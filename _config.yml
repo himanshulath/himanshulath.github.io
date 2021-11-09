@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -25,34 +24,46 @@ projects:
   exclude:
     archived: false
     forks: true
-    projects:
-    # - repo-name
 
 # social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+# behance: your_username
+# dribbble: your_username
+# facebook: your_username
+# hackerrank: your_username
+# instagram: your_username
+# keybase: your_username
+# linkedin: your_username
+# mastodon: your_username
+# medium: your_username
+# stackoverflow: your_user_id
+# telegram: your_username
+# twitter: your_username
+# unsplash: your_username
+# vk: your_username
+# website: http://your_website_url
+# youtube: your_username
 
 topics:
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: HTML
+    web_url: https://www.w3schools.com/html/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: JS and it's frameworks
+    web_url: https://trio.dev/blog/javascript-framework
+    image_url: https://www.w3schools.com/whatis/img_js.png
+
+  - name: Flutter
+    web_url: https://developers.googleblog.com/2019/05/Flutter-io19.html
+    image_url: https://logowik.com/content/uploads/images/flutter5786.jpg
+
+  - name: Golang
+    web_url: https://www.geeksforgeeks.org/go-programming-language-introduction/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg
+
+  - name: Python
+    web_url: https://www.codecademy.com/catalog/language/python
+    image_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
